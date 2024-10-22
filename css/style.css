@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #00014f;
+}
+
+body,ul{
+    margin: 0;
+    padding: 0;
+}
+
+.main__container{
+    max-width: clamp(50%, 70vw, 80%);
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+img{
+    width: 650px;
+    border-radius: 10px;
+}
+
+.bio{
+    margin: 0 30px;
+    font-family: "title";
+    color: #fff;
+}
+.bio h1{
+    margin: 0;
+    font-size: clamp(3rem, 4vw, 5.5rem);
+}
+.bio p{
+    font-family: "text";
+    font-size: 1.2rem;
+}
+
+.download{
+    margin-top: 50px;
+    padding: 20px 30px;
+    font-family: sans-serif;
+    font-size: clamp(.8rem, 1.2vw, 1.5rem);
+    font-weight: 700;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+
+.download:hover{
+    background-color: #fff;
+    color: #000;
+
+}
+
+.contact__list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact__list img{
+    width: 60px;
+}
+
+.contact__gmail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    background-color: #48e;
+    padding: 5px 7px;
+    border-radius: 10px;
+}
+
+.contact__gmail input{
+    padding: 10px;
+    font-size: 1.1rem;
+    border-radius: 7px;
+    border: none;
+    background-color: #00014f;
+    color: #fff;
+}
+
+.contact__gmail button{
+    padding: 7px; 
+    border: none;
+    border-radius: 5px;
+    background-color: #00014f;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contact__gmail button:hover{
+    opacity: .9;
+}
+
+
+
+
+/* CONTACTO SECCION, PROYECTOS */
+
